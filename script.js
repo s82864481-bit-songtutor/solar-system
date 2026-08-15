@@ -6,6 +6,14 @@ function startQuiz() {
     <button onclick="alert('Wrong!')">Earth</button>
   `;
 }
+{
+  <h3>Q: What is the smallest planet in our solar system?<h3>
+    <button oneclick="alert('Correct!')">Mercury</button>
+    <button oneclick="alert('Wrong!')">mars</button>
+}
+{
+  
+  
 
 // Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(a => {
