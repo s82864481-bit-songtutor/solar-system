@@ -7,6 +7,7 @@ function startQuiz() {
   `;
 }
 {
+  quizbox.innerHTML =`
   <h3>Q: What is the smallest planet in our solar system?<h3>
     <button oneclick="alert('Correct!')">Mercury</button>
     <button oneclick="alert('Wrong!')">mars</button>
