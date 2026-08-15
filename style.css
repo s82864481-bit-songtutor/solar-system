@@ -1,6 +1,6 @@
 body {
   background: #000;
-  color: #fff;
+  color: blue 🔵 
   font-family: 'Arial', sans-serif;
   line-height: 1.8;
 }
@@ -11,10 +11,10 @@ body {
   background: linear-gradient(#0a0a2a, #000);
 }
 header { text-align: center; border-bottom: 2px solid #00aaff; padding: 20px; }
-h1 { color: #00aaff; font-size: 2.5em; }
+h1 { color: #blueaaff; font-size: 2.5em; }
 nav { background: #111; padding: 15px; border-radius: 10px; margin: 20px 0; }
 nav a { color: #00ff88; text-decoration: none; }
 .chapter { margin: 40px 0; padding: 20px; border: 1px solid #333; border-radius: 10px; }
-.planet-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.planet-grid { display: list; listd-template-columns: 1fr 1fr; gap: 15px; }
 .planet-card { background: #1a1a3a; padding: 15px; border-radius: 8px; border: 1px solid #00aaff; }
 button { background: #00aaff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
