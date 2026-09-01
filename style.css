@@ -18,3 +18,11 @@ nav a { color: #00ff88; text-decoration: none; }
 .planet-grid { display: list; listd-template-columns: 1fr 1fr; gap: 15px; }
 .planet-card { background: #1a1a3a; padding: 15px; border-radius: 8px; border: 1px solid #00aaff; }
 button { background: #00aaff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+body {
+    color: white;  /* Ye line add kar do */
+    background-color: black; /* Background black hai na */
+}
+
+h1, h2, h3, p {
+    color: white !important; /* Zabardasti white kar dega */
+}
